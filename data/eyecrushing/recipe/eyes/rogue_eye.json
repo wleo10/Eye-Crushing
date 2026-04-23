@@ -1,0 +1,46 @@
+{
+  "type": "create:crushing",
+  "processing_time": 1000,
+  "ingredients": [
+    {
+      "item": "endrem:rogue_eye"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ender_eye",
+      "count": 1
+    },
+    {
+      "id": "minecraft:ender_pearl",
+      "chance": 0.7,
+      "count": 3
+    },
+    {
+      "id": "minecraft:enchanted_book",
+      "chance": 0.4,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "minecraft:thorns": 4
+        }
+      }
+    },
+    {
+      "id": "minecraft:vine",
+      "count": 34
+    },
+    {
+      "id": "minecraft:melon",
+      "chance": 0.7,
+      "count": 7
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "chance": 0.5,
+      "count": 32,
+      "components": {
+        "minecraft:potion_contents": "minecraft:long_poison"
+      }
+    }
+  ]
+}

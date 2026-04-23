@@ -1,0 +1,44 @@
+{
+  "type": "create:crushing",
+  "processing_time": 1000,
+  "ingredients": [
+    {
+      "item": "endrem:lost_eye"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ender_eye",
+      "count": 1
+    },
+    {
+      "id": "minecraft:ender_pearl",
+      "chance": 0.7,
+      "count": 3
+    },
+    {
+      "id": "minecraft:enchanted_book",
+      "chance": 0.4,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "minecraft:efficiency": 6
+        }
+      }
+    },
+    {
+      "id": "minecraft:iron_ingot",
+      "chance": 0.8,
+      "count": 23
+    },
+    {
+      "id": "minecraft:redstone",
+      "chance": 0.7,
+      "count": 34
+    },
+    {
+      "id": "minecraft:diamond",
+      "chance": 0.6,
+      "count": 6
+    }
+  ]
+}

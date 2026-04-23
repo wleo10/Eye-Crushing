@@ -1,0 +1,43 @@
+{
+  "type": "create:crushing",
+  "processing_time": 1000,
+  "ingredients": [
+    {
+      "item": "endrem:witch_eye"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ender_eye",
+      "count": 1
+    },
+    {
+      "id": "minecraft:splash_potion",
+      "chance": 0.3,
+      "components": {
+        "minecraft:potion_contents": "minecraft:strong_regeneration"
+      }
+    },
+    {
+      "id": "minecraft:splash_potion",
+      "chance": 0.3,
+      "components": {
+        "minecraft:potion_contents": "minecraft:strong_healing"
+      }
+    },
+    {
+      "id": "minecraft:splash_potion",
+      "chance": 0.3,
+      "components": {
+        "minecraft:potion_contents": "minecraft:strong_harming"
+      }
+    },
+    {
+      "id": "minecraft:splash_potion",
+      "chance": 0.3,
+      "components": {
+        "minecraft:potion_contents": "minecraft:strong_poison"
+      }
+    }
+  ]
+}

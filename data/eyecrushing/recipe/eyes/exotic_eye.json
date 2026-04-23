@@ -1,0 +1,25 @@
+{
+  "type": "create:crushing",
+  "processing_time": 1000,
+  "ingredients": [
+    {
+      "item": "endrem:exotic_eye"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ender_eye",
+      "count": 1
+    },
+    {
+      "id": "minecraft:conduit",
+      "chance": 0.8,
+      "count": 1
+    },
+    {
+      "id": "minecraft:glow_ink_sac",
+      "chance": 0.7,
+      "count": 2
+    }
+  ]
+}

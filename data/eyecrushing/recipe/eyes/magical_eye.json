@@ -1,0 +1,41 @@
+{
+  "type": "create:crushing",
+  "processing_time": 1000,
+  "ingredients": [
+    {
+      "item": "endrem:magical_eye"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ender_eye",
+      "count": 1
+    },
+    {
+      "id": "minecraft:ender_pearl",
+      "chance": 0.7,
+      "count": 3
+    },
+    {
+      "id": "minecraft:enchanted_book",
+      "chance": 0.4,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "minecraft:protection": 6
+        }
+      }
+    },
+    {
+      "id": "minecraft:totem_of_undying",
+      "chance": 0.6
+    },
+    {
+      "id": "minecraft:totem_of_undying",
+      "chance": 0.4
+    },
+    {
+      "id": "minecraft:book",
+      "count": 42
+    }
+  ]
+}

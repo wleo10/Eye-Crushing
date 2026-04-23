@@ -1,0 +1,43 @@
+{
+  "type": "create:crushing",
+  "processing_time": 1000,
+  "ingredients": [
+    {
+      "item": "endrem:nether_eye"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ender_eye",
+      "count": 1
+    },
+    {
+      "id": "minecraft:ender_pearl",
+      "chance": 0.7,
+      "count": 3
+    },
+    {
+      "id": "minecraft:enchanted_book",
+      "chance": 0.4,
+      "components": {
+        "minecraft:stored_enchantments": {
+          "minecraft:fire_aspect": 3
+        }
+      }
+    },
+    {
+      "id": "minecraft:netherrack",
+      "count": 57
+    },
+    {
+      "id": "minecraft:magma_block",
+      "chance": 0.6,
+      "count": 10
+    },
+    {
+      "id": "minecraft:ancient_debris",
+      "chance": 0.3,
+      "count": 5
+    }
+  ]
+}
